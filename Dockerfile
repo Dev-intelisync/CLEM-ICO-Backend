@@ -1,6 +1,14 @@
-FROM node:18-alpine AS builder
+FROM node:16-alpine AS builder
 
-RUN apk add --no-cache python3 make g++
+UN apk add --no-cache make g++ wget build-base \
+    && wget https://www.python.org/ftp/python/2.7.1/Python-2.7.1.tgz \
+    && tar xzf Python-2.7.1.tgz \
+    && cd Python-2.7.1 \
+    && ./configure --enable-optimizations \
+    && make altinstall \
+    && cd .. \
+    && rm -rf Python-2.7.1* \
+    && apk del wget build-base
 
 WORKDIR /app
 
@@ -10,7 +18,7 @@ RUN npm install
 
 COPY . .
 
-FROM node:18-alpine
+FROM node:16-alpine
 WORKDIR /app
 
 COPY --from=builder /app/node_modules /app/node_modules
