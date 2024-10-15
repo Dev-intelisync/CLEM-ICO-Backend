@@ -34,4 +34,4 @@ COPY --from=builder /app .
 
 EXPOSE 1952
 
-CMD ["node", "start"]
+CMD ["node", "index.js"]
