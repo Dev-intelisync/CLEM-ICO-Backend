@@ -1,11 +1,12 @@
 FROM node:16-alpine AS builder
 
-RUN apk add --no-cache make g++ wget build-base \
+RUN apk add --no-cache make g++ wget build-base zlib-dev openssl-dev libffi-dev \
     && wget https://www.python.org/ftp/python/2.7.1/Python-2.7.1.tgz \
     && tar xzf Python-2.7.1.tgz \
     && cd Python-2.7.1 \
-    && ./configure --enable-optimizations \
-    && make altinstall \
+    && ./configure --enable-shared --enable-unicode=ucs4 \
+    && make \
+    && make install \
     && cd .. \
     && rm -rf Python-2.7.1* \
     && apk del wget build-base
