@@ -1,0 +1,69 @@
+{
+    "USDT": {
+        "mnemonic": "mention jungle caught monitor unit assault fragile decade profit pottery torch shoe wood cage town history guess salad system protect duck middle build pistol"
+    },
+    "BEP20": {
+        "mnemonic": "bike vast that aunt level rival welcome invite arrest apology pioneer primary despair bomb broken once walk city audit spread sheriff nerve emerge ask"
+    },
+    "TRX": {
+        "mnemonic": "sad frequent found year recall cement simple captain suspect lunch hungry dog adult hunt brave dune become fashion soap gift animal position member glide"
+    },
+    "ETH": {
+        "mnemonic": "cloud make purchase intact medal thank modify grant box iron rain dad vivid glad ill science coil harvest pioneer beyond solve hotel piece illness",
+        "INFURA_URL": "https://mainnet.infura.io/v3/e754dd97ccc04bb2b5d23cc4c4c0ea01",
+        "gasPrice": "https://ethgasstation.info/api/ethgasAPI.json?api-key=U2QZ11Z29MQZFNAME5CSNYAB4ZP2TJVSF7",
+        "getBalance": "https://api.etherscan.io/api?module=account&action=balance&address=",
+        "apiKey": "&tag=latest&apikey=4XQJNGAFASQ8V9TSISGP9B6TD7VYKG9IW8"
+    },
+    "BNB": {
+        "mnemonic": "liberty energy foster wood admit grief unlock bar any donor choose member glory ring space rural pig leisure bicycle nerve magic park unknown tent",
+        "rpc": "https://bsc-dataseed.binance.org/",
+        "gasPrice": "https://ethgasstation.info/api/ethgasAPI.json?api-key=ce8da4d2e680dad6465330e7869efe101517aad8274be133e44a8119d5c0",
+        "getBalance": "https://api.bscscan.com/api?module=account&action=balance&address=",
+        "apiKey": "&apikey=GQWQPRVJXUI35NTS2VK4J8KEMZCRXJAI4S",
+        "chainId": "0x38",
+        "networkId": "0x38"
+    },
+    "MATIC": {
+        "mnemonic": "crush nominee ladder wrestle intact slice course decade early scare adjust rookie evolve reduce organ clock evolve pelican page track people soccer gain lounge",
+        "address": "0x7c26779C03459BFc46149F27B3e216C612831008",
+        "privateKey": "0x1ae29a06958b07e797dae8a2fc8648318d03d397e660a790bca148cbab02110d",
+        "rpc": "https://rpc-mainnet.maticvigil.com/", 
+        "gasPrice": "https://ethgasstation.info/api/ethgasAPI.json?api-key=ce8da4d2e680dad6465330e7869efe101517aad8274be133e44a8119d5c0",
+        "getBalance": "https://api.polygonscan.com/api?module=account&action=balance&address=",
+        "apiKey": "&apikey=XTTKBYZGUANDQ28JR9FGPZ91FPAUS5RXA9",
+        "networkId":"0x89",
+        "chainId":"0x89",
+        "contractAddress": {
+            "VD": "0x92E28a68F440747252828A56C581B1295628eB64"
+
+        }
+    },
+    "AVAX": {
+        "mnemonic": "spring scale detail rocket metal worry ocean deer clutch illness stool regret wheat mother pulp screen dolphin sentence banner sand crop female empty approve",
+        "rpc": "https://api.avax.network/ext/bc/C/rpc",
+        "gasPrice": "https://ethgasstation.info/api/ethgasAPI.json?api-key=ce8da4d2e680dad6465330e7869efe101517aad8274be133e44a8119d5c0",
+        "getBalance": "https://api.snowtrace.io/api?module=account&action=txlist&address=",
+        "apiKey": "&startblock=1&endblock=99999999&sort=asc&apikey=XRTMWRSS2HDNJ3KCXWZKSICX8PGXNEH8SZ",
+        "networkId":"0xA86A",
+        "chainId":"0xA86A"
+    
+    },
+    "ERC20": {
+        "mnemonic": "field satisfy exist rug only witness because luggage harbor ribbon today zero plastic poverty deliver evil harsh picture early economy inside spin other success",
+
+        "contractAddress": {
+            "USDT": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "USDC": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "BUSD": "0x4Fabb145d64652a948d72533023f6E7A623C7C53"
+        },
+        "INFURA_URL": "https://mainnet.infura.io/v3/e754dd97ccc04bb2b5d23cc4c4c0ea01",
+        "contract": "0x30485573d9D47f3A9926f3dd8cCDa65Aa25eeC0E",
+        "balanceURL":"https://api.etherscan.io",
+        "apiKey":"U2QZ11Z29MQZFNAME5CSNYAB4ZP2TJVSF7",
+        "gasPriceURL":"https://ethgasstation.info/api/ethgasAPI.json?api-key=ce8da4d2e680dad6465330e7869efe101517aad8274be133e44a8119d5c0"
+    },
+    "BTC": {
+        "baseURL": "http://54.145.218.5:3000/btc"
+    }
+}
