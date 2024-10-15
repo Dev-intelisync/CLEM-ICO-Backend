@@ -36,8 +36,8 @@
   },
   "nodemailer": {
     "service": "gmail",
-    "email": "piyush@tecnobelite.com",
-    "password": "agcwgeklupngbhun"
+    "email": "piyush@intelisync.ai",
+    "password": "nepakvskwhfvpvrr"
   },
   "AWS": {
     "accessKeyId": "AKIA3T6HK6S53Z2YMOOK",
