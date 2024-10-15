@@ -20,7 +20,6 @@ RUN wget https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tgz \
 
 WORKDIR /app
 
-# Install Node.js dependencies
 COPY package*.json ./
 RUN npm install
 
@@ -30,11 +29,9 @@ COPY . .
 FROM node:16-alpine3.12
 WORKDIR /app
 
-# Copy the built node modules and app files from builder
 COPY --from=builder /app/node_modules /app/node_modules
 COPY --from=builder /app .
 
-# Expose application port and start the app
 EXPOSE 1952
 
 CMD ["node", "start"]
