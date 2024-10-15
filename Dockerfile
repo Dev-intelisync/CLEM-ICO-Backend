@@ -1,6 +1,6 @@
 FROM node:16-alpine AS builder
 
-UN apk add --no-cache make g++ wget build-base \
+RUN apk add --no-cache make g++ wget build-base \
     && wget https://www.python.org/ftp/python/2.7.1/Python-2.7.1.tgz \
     && tar xzf Python-2.7.1.tgz \
     && cd Python-2.7.1 \
