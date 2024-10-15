@@ -29,11 +29,7 @@
     "api_key": "544615312313752",
     "api_secret": "4G6B6_0Fkb_d6X8M-jrKfslL0y4"
   },
-  "twilio": {
-    "accountSid": "ACf786a64203b2524f8ee2878ee632bbe7",
-    "authToken": "746861191af93561bd9de02d47a1ad26",
-    "number": "+18555728559"
-  },
+
   "nodemailer": {
     "service": "gmail",
     "email": "piyush@intelisync.ai",

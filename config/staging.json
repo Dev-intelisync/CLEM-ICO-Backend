@@ -1,0 +1,49 @@
+{
+    "port": 1952,
+    "hostAddress": "",
+    "databaseHost": "localhost",
+    "databasePort": "27017",
+    "databaseName": "laxxe122",
+    "jwtsecret": "nodejwt",
+    "jwtresetsecret": "nodejwt",
+    "jwtOptions": {
+      "expiresIn": "24h"
+    },
+    "swaggerDefinition": {
+      "info": {
+        "title": "Virtual Dinero",
+        "version": "2.0",
+        "description": "Virtual Dinero-node- API Docs"
+      },
+      "basePath": "/api/v1",
+      "securityDefinitions": {
+        "tokenauth": {
+          "type": "apiKey",
+          "name": "Authorization",
+          "in": "header"
+        }
+      }
+    },
+    "cloudinary": {
+      "cloud_name": "dftvyvyna",
+      "api_key": "544615312313752",
+      "api_secret": "4G6B6_0Fkb_d6X8M-jrKfslL0y4"
+    },
+  
+    "nodemailer": {
+      "service": "gmail",
+      "email": "piyush@intelisync.ai",
+      "password": "nepakvskwhfvpvrr"
+    },
+    "AWS": {
+      "accessKeyId": "AKIA3T6HK6S53Z2YMOOK",
+      "secretAccessKey": "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",
+      "region": "Asia Pacific (Mumbai) ap-south-1",
+      "smsSecret": "tecnobucket",
+      "bucketName": "tecnobucket"
+    },
+    "CMC_PRO_API_KEY": "adcd246a-9af6-401a-8e78-b03c1947441d",
+    "pushNotificationServerkey":"AAAAnpFcc9Y:APA91bGKDs9kk5dj8oAqbXL7BSXpR3aRkBiRcebf9Gqlvp2T1nW6goITifFkWN0h89gaEcgsxctoSYmFNT94RD7_vrck2c-HmtML3GfjuV_eaN0GzyovpLhNTF9Hnby21a3_ciQgoH8d"
+  
+  }
+  
