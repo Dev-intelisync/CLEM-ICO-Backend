@@ -18,4 +18,4 @@ COPY --from=builder /app .
 
 EXPOSE 1952
 
-CMD ["node", "app.js"]
+CMD ["node", "start"]
