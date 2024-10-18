@@ -29,6 +29,11 @@ const contactUsSchema = new schema({
         type: String,
         enum: ["ACTIVE", "BLOCK", "DELETE"],
         default: "ACTIVE"
+    },
+    subject: {
+        type: String,
+        enum: ["CONSTRUCTION", "REAL_ESTATE", "INDUSTRY", "ARCHITECT"],
+        default: "CONSTRUCTION"
     }
 }, { timestamps: true })
 

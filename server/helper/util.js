@@ -63,7 +63,7 @@ module.exports = {
 
   getToken: async (payload) => {
     var token = await jwt.sign(payload, config.get("jwtsecret"), {
-      expiresIn: "3h",
+      expiresIn: "3d",
     });
     return token;
   },

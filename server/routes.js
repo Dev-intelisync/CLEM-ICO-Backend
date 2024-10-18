@@ -6,6 +6,7 @@ import faq from "./api/v1/controllers/static/routes";
 import contactUs from "./api/v1/controllers/contactUs/routes";
 import staticLink from "./api/v1/controllers/static/routes";
 import countryState from "./api/v1/controllers/static/routes";
+import newsLetter from "./api/v1/controllers/newsletter/routes";
 
 /**
  *
@@ -22,6 +23,7 @@ export default function routes(app) {
   app.use("/api/v1/contactUs", contactUs);
   app.use("/api/v1/staticLink", staticLink);
   app.use("/api/v1/country", countryState);
+  app.use("/api/v1", newsLetter);
 
 
   return app;

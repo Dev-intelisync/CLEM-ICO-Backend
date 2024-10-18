@@ -13,6 +13,8 @@ export default Express.Router()
     .get('/contactUs', controller.listContactUs)
     .put('/contactUs', controller.replyContactUs)
     .delete('/contactUs', controller.deleteContactUs)
+
+    
     .post('/addFeedback', controller.addFeedback)
     .get('/listFeedback', controller.listFeedback)
     .get('/viewFeedback', controller.viewFeedback)
