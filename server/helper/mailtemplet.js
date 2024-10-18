@@ -157,7 +157,7 @@ module.exports = {
         <p style="font-size: 14px; line-height: 140%;">Hi </p>
     <p style="font-size: 14px; line-height: 140%;"><b>you have subscribe to Newsletter on VD platform.</p></br><br>
    <p>Thanks and Regards, <br>
-<b>Team VDB Coin</b></p> 
+<b>Team CLEMENTINE </b></p> 
       </div>
       
     
@@ -199,7 +199,7 @@ module.exports = {
           <td style="overflow-wrap:break-word;word-break:break-word;padding:18px;font-family:'Montserrat',sans-serif;" align="left">
             
       <div style="color: #ffffff; line-height: 150%; text-align: center; word-wrap: break-word;">
-        <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ VDB Coin | All Rights Reserved</span></p>
+        <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ CLEMENTINE  | All Rights Reserved</span></p>
       </div>
     
           </td>
@@ -422,7 +422,7 @@ module.exports = {
                                   <p style="font-size: 14px; line-height: 140%;">Hi </p>
                                   <p style="font-size: 14px; line-height: 140%;">${email} Admin give reply on NewsLetter as :${message}</p></br><br>
                                   <p>Thanks and Regards, <br>
-                                    <b>Team VDB Coin</b>
+                                    <b>Team CLEMENTINE </b>
                                   </p>
                                 </div>
   
@@ -474,7 +474,7 @@ module.exports = {
                                 <div
                                   style="color: #ffffff; line-height: 150%; text-align: center; word-wrap: break-word;">
                                   <p style="font-size: 14px; line-height: 140%;"><span
-                                      style="font-size: 14px; line-height: 19.6px;">2022 @ VDB Coin | All Rights
+                                      style="font-size: 14px; line-height: 19.6px;">2022 @ CLEMENTINE  | All Rights
                                       Reserved</span></p>
                                 </div>
   
@@ -654,9 +654,9 @@ module.exports = {
                 
           <div style="color: #1b262c; line-height: 140%; text-align: center; word-wrap: break-word;"></br></br>
             <p style="font-size: 14px; line-height: 140%;">Hi ${body.name}</p>
-        <p style="font-size: 14px; line-height: 140%;">Your stake stakeId: ${body.stakeId} is ${body.stakeStatus} by Admin with reason :${body.reason} on Plateform VDB Coin .</p></br>
+        <p style="font-size: 14px; line-height: 140%;">Your stake stakeId: ${body.stakeId} is ${body.stakeStatus} by Admin with reason :${body.reason} on Plateform CLEMENTINE  .</p></br>
        <p>Thanks and Regards, <br>
-    <b>Team VDB Coin</b></p> 
+    <b>Team CLEMENTINE </b></p> 
           </div>
           
         
@@ -701,7 +701,7 @@ module.exports = {
               <td style="overflow-wrap:break-word;word-break:break-word;padding:18px;font-family:'Montserrat',sans-serif;" align="left">
                 
           <div style="color: #ffffff; line-height: 150%; text-align: center; word-wrap: break-word;">
-            <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ VDB Coin | All Rights Reserved</span></p>
+            <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ CLEMENTINE  | All Rights Reserved</span></p>
           </div>
         
               </td>
@@ -881,9 +881,9 @@ module.exports = {
                 
           <div style="color: #1b262c; line-height: 140%; text-align: center; word-wrap: break-word;"></br></br>
             <p style="font-size: 14px; line-height: 140%;">Hi </p>
-        <p style="font-size: 14px; line-height: 140%;">Welcome to <b>VDB Coin.</b> Your Email One Time Password (OTP) to log in to your VDB Coin account is <b>${otp}</b>.The OTP is valid for 3 minutes. This OTP will be used to verify the device you are logging in from. For account safety, Do not share your OTP with others.</p></br>
+        <p style="font-size: 14px; line-height: 140%;">Welcome to <b>CLEMENTINE .</b> Your Email One Time Password (OTP) to log in to your CLEMENTINE  account is <b>${otp}</b>.The OTP is valid for 3 minutes. This OTP will be used to verify the device you are logging in from. For account safety, Do not share your OTP with others.</p></br>
        <p>Thanks and Regards, <br>
-    <b>Team VDB Coin</b></p> 
+    <b>Team CLEMENTINE </b></p> 
           </div>
           
         
@@ -928,7 +928,7 @@ module.exports = {
               <td style="overflow-wrap:break-word;word-break:break-word;padding:18px;font-family:'Montserrat',sans-serif;" align="left">
                 
           <div style="color: #ffffff; line-height: 150%; text-align: center; word-wrap: break-word;">
-            <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ VDB Coin| All Rights Reserved</span></p>
+            <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ CLEMENTINE | All Rights Reserved</span></p>
           </div>
         
               </td>
@@ -1107,9 +1107,9 @@ module.exports = {
 
       <div style="color: #1b262c; line-height: 140%; text-align: center; word-wrap: break-word;"></br></br>
         <p style="font-size: 14px; line-height: 140%;">Hi ${body.name}</p>
-    <p style="font-size: 14px; line-height: 140%;">Your KYC kycId: ${body.kycId} is ${body.status} by Admin on Plateform VDB Coin .</p></br>
+    <p style="font-size: 14px; line-height: 140%;">Your KYC kycId: ${body.kycId} is ${body.status} by Admin on Plateform CLEMENTINE  .</p></br>
    <p>Thanks and Regards, <br>
-<b>Team VDB Coin</b></p> 
+<b>Team CLEMENTINE </b></p> 
       </div>
 
 
@@ -1154,7 +1154,7 @@ module.exports = {
           <td style="overflow-wrap:break-word;word-break:break-word;padding:18px;font-family:'Montserrat',sans-serif;" align="left">
 
       <div style="color: #ffffff; line-height: 150%; text-align: center; word-wrap: break-word;">
-        <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ VDB Coin| All Rights Reserved</span></p>
+        <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ CLEMENTINE | All Rights Reserved</span></p>
       </div>
 
           </td>
@@ -1333,9 +1333,9 @@ module.exports = {
 
         <div style="color: #1b262c; line-height: 140%; text-align: center; word-wrap: break-word;"></br></br>
           <p style="font-size: 14px; line-height: 140%;">Hi ${body.name}</p>
-      <p style="font-size: 14px; line-height: 140%;">Your KYC kycId: ${body.kycId} is ${body.status} by Admin with reason :${body.reason} on Plateform VDB Coin .</p></br>
+      <p style="font-size: 14px; line-height: 140%;">Your KYC kycId: ${body.kycId} is ${body.status} by Admin with reason :${body.reason} on Plateform CLEMENTINE  .</p></br>
      <p>Thanks and Regards, <br>
-  <b>Team VDB Coin</b></p> 
+  <b>Team CLEMENTINE </b></p> 
         </div>
 
 
@@ -1380,7 +1380,7 @@ module.exports = {
             <td style="overflow-wrap:break-word;word-break:break-word;padding:18px;font-family:'Montserrat',sans-serif;" align="left">
 
         <div style="color: #ffffff; line-height: 150%; text-align: center; word-wrap: break-word;">
-          <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ VDB Coin | All Rights Reserved</span></p>
+          <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ CLEMENTINE  | All Rights Reserved</span></p>
         </div>
 
             </td>
@@ -1605,7 +1605,7 @@ module.exports = {
                                                                 <br>
                                                                     <p style="margin-top: 17px;">Thanks and Regards, </p> <br>
     
-                                                                      <p style="margin-top: -17px;">Team VDB Coin</p>
+                                                                      <p style="margin-top: -17px;">Team CLEMENTINE </p>
                                                                     </p>
                                                                 </div>
     
@@ -1665,7 +1665,7 @@ module.exports = {
                                                                     style="color: #ffffff; line-height: 150%; text-align: center; word-wrap: break-word;">
                                                                     <p style="font-size: 14px; line-height: 140%;"><span
                                                                             style="font-size: 14px; line-height: 19.6px;">2022
-                                                                            @ VDB Coin| All Rights Reserved</span></p>
+                                                                            @ CLEMENTINE | All Rights Reserved</span></p>
                                                                 </div>
     
                                                             </td>
@@ -1844,9 +1844,9 @@ module.exports = {
               
         <div style="color: #1b262c; line-height: 140%; text-align: center; word-wrap: break-word;"></br></br>
           <p style="font-size: 14px; line-height: 140%;">Hi </p>
-      <p style="font-size: 14px; line-height: 140%;">Welcome to <b>VDB Coin.</b> Your Email One Time Password (OTP) to log in to your VDB Coin account is <b>${otp}</b>.The OTP is valid for 3 minutes. This OTP will be used to verify the device you are logging in from. For account safety, Do not share your OTP with others.</p></br>
+      <p style="font-size: 14px; line-height: 140%;">Welcome to <b>CLEMENTINE .</b> Your Email One Time Password (OTP) to log in to your CLEMENTINE  account is <b>${otp}</b>.The OTP is valid for 3 minutes. This OTP will be used to verify the device you are logging in from. For account safety, Do not share your OTP with others.</p></br>
      <p>Thanks and Regards, <br>
-  <b>Team VDB Coin</b></p> 
+  <b>Team CLEMENTINE </b></p> 
         </div>
         
       
@@ -1891,7 +1891,7 @@ module.exports = {
             <td style="overflow-wrap:break-word;word-break:break-word;padding:18px;font-family:'Montserrat',sans-serif;" align="left">
               
         <div style="color: #ffffff; line-height: 150%; text-align: center; word-wrap: break-word;">
-          <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ VDB Coin| All Rights Reserved</span></p>
+          <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ CLEMENTINE | All Rights Reserved</span></p>
         </div>
       
             </td>
@@ -2070,9 +2070,9 @@ a[x-apple-data-detectors='true'] {
         
   <div style="color: #1b262c; line-height: 140%; text-align: center; word-wrap: break-word;"></br></br>
     <p style="font-size: 14px; line-height: 140%;">Hi ${body.name}</p>
-<p style="font-size: 14px; line-height: 140%;">Your stake stakeId: ${body.stakeId} is ${body.stakeStatus} by Admin with reason :${body.reason} on Plateform VDB Coin .</p></br>
+<p style="font-size: 14px; line-height: 140%;">Your stake stakeId: ${body.stakeId} is ${body.stakeStatus} by Admin with reason :${body.reason} on Plateform CLEMENTINE  .</p></br>
 <p>Thanks and Regards, <br>
-<b>Team VDB Coin</b></p> 
+<b>Team CLEMENTINE </b></p> 
   </div>
   
 
@@ -2117,7 +2117,7 @@ a[x-apple-data-detectors='true'] {
       <td style="overflow-wrap:break-word;word-break:break-word;padding:18px;font-family:'Montserrat',sans-serif;" align="left">
         
   <div style="color: #ffffff; line-height: 150%; text-align: center; word-wrap: break-word;">
-    <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ VDB Coin | All Rights Reserved</span></p>
+    <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ CLEMENTINE  | All Rights Reserved</span></p>
   </div>
 
       </td>
@@ -2296,9 +2296,9 @@ a[x-apple-data-detectors='true'] {
             
       <div style="color: #1b262c; line-height: 140%; text-align: center; word-wrap: break-word;"></br></br>
         <p style="font-size: 14px; line-height: 140%;">Hi ${body.name}</p>
-    <p style="font-size: 14px; line-height: 140%;">Your stake stakeId: ${body.stakeId} is ${body.stakeStatus} by Admin on Plateform VDB Coin .</p></br>
+    <p style="font-size: 14px; line-height: 140%;">Your stake stakeId: ${body.stakeId} is ${body.stakeStatus} by Admin on Plateform CLEMENTINE  .</p></br>
    <p>Thanks and Regards, <br>
-<b>Team VDB Coin</b></p> 
+<b>Team CLEMENTINE </b></p> 
       </div>
       
     
@@ -2343,7 +2343,7 @@ a[x-apple-data-detectors='true'] {
           <td style="overflow-wrap:break-word;word-break:break-word;padding:18px;font-family:'Montserrat',sans-serif;" align="left">
             
       <div style="color: #ffffff; line-height: 150%; text-align: center; word-wrap: break-word;">
-        <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ VDB Coin | All Rights Reserved</span></p>
+        <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;">2022 @ CLEMENTINE  | All Rights Reserved</span></p>
       </div>
     
           </td>
