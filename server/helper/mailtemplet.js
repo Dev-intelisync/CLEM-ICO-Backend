@@ -1,5 +1,4 @@
 module.exports = {
-
   subscribertemplet(email) {
     return `<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -109,7 +108,7 @@ module.exports = {
       <tr>
         <td style="padding-right: 0px;padding-left: 0px;" align="center">
           
-          <img align="center" border="0" src="https://res.cloudinary.com/mobiloittetech/image/upload/v1667376242/zk10rrd8w8pbgbqpdvqe.png" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
+          <img align="center" border="0" src="https://clementinego.com/images/CLEMENTINESITEBARLOGO.svg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
           
         </td>
       </tr>
@@ -219,10 +218,10 @@ module.exports = {
       </table>
     </body>
     
-    </html>`
+    </html>`;
   },
 
-  replyNewsLetterTemplet(email,message) {
+  replyNewsLetterTemplet(email, message) {
     return `<!DOCTYPE HTML
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
@@ -359,7 +358,7 @@ module.exports = {
                                     <td style="padding-right: 0px;padding-left: 0px;" align="center">
   
                                       <img align="center" border="0"
-                                        src="https://res.cloudinary.com/mobiloittetech/image/upload/v1667376242/zk10rrd8w8pbgbqpdvqe.png"
+                                        src="https://clementinego.com/images/CLEMENTINESITEBARLOGO.svg"
                                         alt="Image" title="Image"
                                         style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;"
                                         width="500" />
@@ -495,7 +494,7 @@ module.exports = {
     </table>
   </body>
   
-  </html>`
+  </html>`;
   },
 
   sendmailStackRejectTemplet(body) {
@@ -607,7 +606,7 @@ module.exports = {
           <tr>
             <td style="padding-right: 0px;padding-left: 0px;" align="center">
               
-              <img align="center" border="0" src="https://res.cloudinary.com/mobiloittetech/image/upload/v1667376242/zk10rrd8w8pbgbqpdvqe.png" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
+              <img align="center" border="0" src="https://clementinego.com/images/CLEMENTINESITEBARLOGO.svg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
               
             </td>
           </tr>
@@ -721,7 +720,7 @@ module.exports = {
           </table>
         </body>
         
-        </html>`
+        </html>`;
   },
 
   signUpTemplet(otp) {
@@ -833,7 +832,7 @@ module.exports = {
           <tr>
             <td style="padding-right: 0px;padding-left: 0px;" align="center">
               
-              <img align="center" border="0" src="https://res.cloudinary.com/mobiloittetech/image/upload/v1667376242/zk10rrd8w8pbgbqpdvqe.png" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
+              <img align="center" border="0" src="https://clementinego.com/images/CLEMENTINESITEBARLOGO.svg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
               
             </td>
           </tr>
@@ -948,7 +947,7 @@ module.exports = {
           </table>
         </body>
         
-        </html>`
+        </html>`;
   },
 
   mailKYCApproveTemplet(body) {
@@ -1060,7 +1059,7 @@ module.exports = {
       <tr>
         <td style="padding-right: 0px;padding-left: 0px;" align="center">
 
-          <img align="center" border="0" src="https://res.cloudinary.com/mobiloittetech/image/upload/v1667376242/zk10rrd8w8pbgbqpdvqe.png" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
+          <img align="center" border="0" src="https://clementinego.com/images/CLEMENTINESITEBARLOGO.svg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
 
         </td>
       </tr>
@@ -1174,7 +1173,7 @@ module.exports = {
       </table>
     </body>
 
-    </html>`
+    </html>`;
   },
 
   mailKYCRejectTemplet(body) {
@@ -1286,7 +1285,7 @@ module.exports = {
         <tr>
           <td style="padding-right: 0px;padding-left: 0px;" align="center">
 
-            <img align="center" border="0" src="https://res.cloudinary.com/mobiloittetech/image/upload/v1667376242/zk10rrd8w8pbgbqpdvqe.png" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
+            <img align="center" border="0" src="https://clementinego.com/images/CLEMENTINESITEBARLOGO.svg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
 
           </td>
         </tr>
@@ -1400,7 +1399,7 @@ module.exports = {
         </table>
       </body>
 
-      </html>`
+      </html>`;
   },
 
   sendMoneyMailTemplet(url) {
@@ -1532,7 +1531,7 @@ module.exports = {
                                                                         <td style="padding-right: 0px;padding-left: 0px;"
                                                                             align="center">
     
-                                                                            <img align="center" border="0" src="https://res.cloudinary.com/mobiloittetech/image/upload/v1667376242/zk10rrd8w8pbgbqpdvqe.png" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
+                                                                            <img align="center" border="0" src="https://clementinego.com/images/CLEMENTINESITEBARLOGO.svg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
     
                                                                         </td>
                                                                     </tr>
@@ -1684,7 +1683,7 @@ module.exports = {
         </table>
     </body>
     
-    </html>`
+    </html>`;
   },
 
   otpForgetResetTemplet(otp) {
@@ -1796,7 +1795,7 @@ module.exports = {
         <tr>
           <td style="padding-right: 0px;padding-left: 0px;" align="center">
             
-            <img align="center" border="0" src="https://res.cloudinary.com/mobiloittetech/image/upload/v1667376242/zk10rrd8w8pbgbqpdvqe.png" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
+            <img align="center" border="0" src="https://clementinego.com/images/CLEMENTINESITEBARLOGO.svg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
             
           </td>
         </tr>
@@ -1911,7 +1910,7 @@ module.exports = {
         </table>
       </body>
       
-      </html>`
+      </html>`;
   },
 
   mailStackRejectTemplet(body) {
@@ -2023,7 +2022,7 @@ a[x-apple-data-detectors='true'] {
   <tr>
     <td style="padding-right: 0px;padding-left: 0px;" align="center">
       
-      <img align="center" border="0" src="https://res.cloudinary.com/mobiloittetech/image/upload/v1667376242/zk10rrd8w8pbgbqpdvqe.png" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
+      <img align="center" border="0" src="https://clementinego.com/images/CLEMENTINESITEBARLOGO.svg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
       
     </td>
   </tr>
@@ -2137,7 +2136,7 @@ a[x-apple-data-detectors='true'] {
   </table>
 </body>
 
-</html>`
+</html>`;
   },
 
   mailStackAcceptTemplet(body) {
@@ -2249,7 +2248,7 @@ a[x-apple-data-detectors='true'] {
       <tr>
         <td style="padding-right: 0px;padding-left: 0px;" align="center">
           
-          <img align="center" border="0" src="https://res.cloudinary.com/mobiloittetech/image/upload/v1667376242/zk10rrd8w8pbgbqpdvqe.png" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
+          <img align="center" border="0" src="https://clementinego.com/images/CLEMENTINESITEBARLOGO.svg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 500px;" width="500"/>
           
         </td>
       </tr>
@@ -2363,23 +2362,6 @@ a[x-apple-data-detectors='true'] {
       </table>
     </body>
     
-    </html>`
-  }
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </html>`;
+  },
+};

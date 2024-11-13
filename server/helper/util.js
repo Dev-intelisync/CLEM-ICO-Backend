@@ -1,4 +1,4 @@
-import config from "config";
+  import config from "config";
 import jwt from "jsonwebtoken";
 const fs = require("fs");
 import FCM from "fcm-push";
