@@ -7,7 +7,7 @@ import ses from "node-ses";
 import mailTemplet from "../helper/mailtemplet";
 
 
-var nodemailer_sender_email = "no-reply@tecnobelite.com";
+var nodemailer_sender_email = config.get("nodemailer.email");
 
 import cloudinary from "cloudinary";
 
