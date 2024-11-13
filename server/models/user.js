@@ -112,10 +112,10 @@ module.exports = Mongoose.model("user", userModel);
         lastName: "Kunwar",
         countryCode: "+91",
         mobileNumber: "7017381081",
-        email: "lax@tecnobelite.com",
+        email: "admin@clementinego.com",
         dateOfBirth: "15/02/2000",
         gender: "Male",
-        password: bcrypt.hashSync("Tecnobelite@1"),
+        password: bcrypt.hashSync("Clementinego@1"),
         address: "Varansi, UP, India",
         contactUs: {
           countryCode: "+91",
