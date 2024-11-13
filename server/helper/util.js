@@ -21,6 +21,18 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+
+// const transporter = nodemailer.createTransport({
+//   host: 'smtpout.secureserver.net',
+//   port: 587, // or 465 if you prefer SSL
+//   secure: false, // true for port 465, false for other ports
+//   auth: {
+//     user: 'you@yourdomain.com', // your GoDaddy email
+//     pass: 'your-email-password', // your GoDaddy email password
+//   },
+// });
+
+
 const accountSid = config.get("twilio.accountSid");
 const authToken = config.get("twilio.authToken");
 const client = require("twilio")(accountSid, authToken);

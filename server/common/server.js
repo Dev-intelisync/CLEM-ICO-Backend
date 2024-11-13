@@ -10,10 +10,16 @@ import swaggerJSDoc from "swagger-jsdoc";
 import apiErrorHandler from '../helper/apiErrorHandler';
 import notificationController from "../api/v1/controllers/notification/controller";
 import staticController from '../api/v1/controllers/static/controller';
+import bodyParser from 'body-parser';
 
 
 const app = new express();
 const server = http.createServer(app);
+
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
 let io = socket(server);
 const root = path.normalize(`${__dirname}/../..`);
 let userCount = 0;
